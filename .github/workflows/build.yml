@@ -14,10 +14,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build app and DMG
+           - name: Build app and DMG
         run: |
           chmod +x build-mac-app.sh
           ./build-mac-app.sh
+          ls -lh Nepali-Date.dmg
 
       - name: Upload DMG
         uses: actions/upload-artifact@v4
