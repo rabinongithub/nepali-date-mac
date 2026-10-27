@@ -499,4 +499,3 @@ struct CalendarPopover: View {
         message = nil
     }
 }
-```
