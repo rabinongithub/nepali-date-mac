@@ -103,7 +103,7 @@ struct MenuBarLabel: View {
     }
     private var label: String {
         guard let bs = NepaliCalendar.shared.date(for: now) else { return "BS unavailable" }
-        return "\(bs.day) \(monthNames[bs.month - 1])"
+        return "\(bs.day) \(monthNames[bs.month - 1]), \(bs.year)"
     }
 }
 
