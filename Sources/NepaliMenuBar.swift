@@ -1,4 +1,3 @@
-```swift
 import SwiftUI
 import AppKit
 import ServiceManagement
