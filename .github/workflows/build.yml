@@ -24,5 +24,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Nepali-Date-Mac-DMG
-          path: "*.dmg"
+          path: Nepali-Date.dmg
           if-no-files-found: error
